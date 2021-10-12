@@ -16,7 +16,7 @@ const Points = ({ lat, lon, add1, add2, city, id }) => {
     console.log(a2, b2, add1, add2, city, id);
 
     const deletecard = () => {
-        axios.delete(`https://triptiii.herokuapp.com/delete/${id}`);
+        axios.delete(`https://triptifoundation.herokuapp.com/delete/${id}`);
     }
     return (
         <Marker position={[a2, b2]} icon={new Icon({ iconUrl: markerIconPng, iconSize: [25, 41], iconAnchor: [12, 41] })} >

@@ -21,7 +21,7 @@ const Treat = () => {
 
     const onSubmit = async (e) => {
         e.preventDefault();
-        await axios.post("https://triptiii.herokuapp.com/Treatb", treat);
+        await axios.post("https://triptifoundation.herokuapp.com/Treatb", treat);
         alert('Submitted successfully')
         setTreat({
             firstname: '',

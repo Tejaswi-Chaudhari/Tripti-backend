@@ -61,12 +61,6 @@ const Treat = new mongoose.model("Treat", treatSchema)
 
 
 // Routes
-app.get('/', (req, res) => {
-    Treat.find()
-        .then(treats => res.json(treats))
-        .catch(err => res.status(400).json('Error: ' + err));
-});
-
 app.get('/getneedhelp', (req, res) => {
     console.log(res);
     Needhelp.find()
@@ -147,20 +141,6 @@ const login = (req, res, next) => {
 
 app.post('/Login', login)
 
-const authenticate = (reeq, res, next) => {
-    try{
-        const token = req.headers.authorization.split(' ')[1]
-        const decode = jwt.verify(token, 'Hcgx)*(fn')
-
-        req.user = decode
-        next()
-    }
-    catch(error){
-        res.json({
-            message: 'Authentication failed!'
-        })
-    }
-}
 
 app.post("/help", (req, res) => {
     console.log(req.body);

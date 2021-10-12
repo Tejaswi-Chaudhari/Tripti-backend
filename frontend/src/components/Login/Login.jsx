@@ -21,7 +21,7 @@ const Login = () => {
     }
 
     const login = () => {
-        axios.post("https://triptiii.herokuapp.com/Login", user)
+        axios.post("https://triptifoundation.herokuapp.com/Login", user)
             .then(res => {
                 alert(res.data.message)
                 const token = res.data.token;

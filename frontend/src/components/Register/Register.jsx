@@ -25,7 +25,7 @@ const Register = () => {
 
     const register = () => {
         const { name, email, password } = user
-        axios.post("https://triptiii.herokuapp.com/Register", user)
+        axios.post("https://triptifoundation.herokuapp.com/Register", user)
             .then(res => {
 
                 alert(res.data.message)

@@ -29,7 +29,7 @@ const Addfood = () => {
     }, []);
 
     const loadUsers = async () => {
-        const result = await axios.get("https://triptiii.herokuapp.com/getneedhelp");
+        const result = await axios.get("https://triptifoundation.herokuapp.com/getneedhelp");
         setUsers(result.data);
     }
     console.log(users)

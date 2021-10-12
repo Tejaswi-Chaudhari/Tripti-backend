@@ -22,7 +22,7 @@ const Needhelp = () => {
 
     const onSubmit = async (e) => {
         e.preventDefault();
-        await axios.post("https://triptiii.herokuapp.com/help", help);
+        await axios.post("https://triptifoundation.herokuapp.com/help", help);
         setHelp({
             address1: '',
             address2: '',
