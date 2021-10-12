@@ -48,12 +48,12 @@ const Header = ({auth}) => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="nav me-auto">
-                            <Nav.Link href={auth ?"/addfood" : "/login" } className="nav-txt-rd first">Add Food</Nav.Link>
-                            <Nav.Link href={auth ? "/needhelp" : "/login"} className="nav-txt-rd">Need Help</Nav.Link>
-                            <Nav.Link href={auth ? "/donate" : "/login"} className="nav-txt-rd">Donate</Nav.Link>
-                            <Nav.Link href={auth ? "/ngos" : "/login"} className="nav-txt-rd">NGOs</Nav.Link>
-                            <Nav.Link href={auth ? "/govtschemes" : "/login"} className="nav-txt-rd">Government Schemes</Nav.Link>
-                            <Nav.Link href={auth ? "/treat" : "/login"} className="nav-txt-rd">Give them a treat</Nav.Link>
+                            <Nav.Link href={auth ?"/addfood" : "/Login" } className="nav-txt-rd first">Add Food</Nav.Link>
+                            <Nav.Link href={auth ? "/needhelp" : "/Login"} className="nav-txt-rd">Need Help</Nav.Link>
+                            <Nav.Link href={auth ? "/donate" : "/Login"} className="nav-txt-rd">Donate</Nav.Link>
+                            <Nav.Link href={auth ? "/ngos" : "/Login"} className="nav-txt-rd">NGOs</Nav.Link>
+                            <Nav.Link href={auth ? "/govtschemes" : "/Login"} className="nav-txt-rd">Government Schemes</Nav.Link>
+                            <Nav.Link href={auth ? "/treat" : "/Login"} className="nav-txt-rd">Give them a treat</Nav.Link>
 
                            
                             
