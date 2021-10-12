@@ -2,7 +2,7 @@ import express from "express"
 import cors from "cors"
 import mongoose from "mongoose"
 import path from 'path'
-// import { __dirname } from 'path';
+import { dirname } from 'path';
 import { } from 'dotenv/config'
 
 import bcryptjs from "bcryptjs"
@@ -197,6 +197,7 @@ if (process.env.NODE_ENV === 'production') {
 
     // const path = require('path');
     app.get('*', (req, res) => {
+        __dirname = path.resolve(path.dirname(''));
         res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'));
     });
 }
