@@ -2,7 +2,7 @@ import express from "express"
 import cors from "cors"
 import mongoose from "mongoose"
 import path from 'path'
-import { dirname } from 'path';
+import { __dirname } from 'path';
 import { } from 'dotenv/config'
 
 import bcryptjs from "bcryptjs"
@@ -202,6 +202,6 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 app.listen(PORT, () => {
-    console.log("Be started at port 9002")
+    console.log(`Be started at port ${PORT}`)
 })
 
