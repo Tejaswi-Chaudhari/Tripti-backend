@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@600&display=swap');
+
+.image-location{
+
+    height: 600px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.leftside{
+    margin-top: 140px;
+}
+.para{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.para1{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 35px;
+}
+
+.topic1{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 55px;
+color: #24305e;
+}
+.button1{
+    margin: 12px;
+    margin-top: 36px;
+    margin-left: 0;
+    font-weight: 650;
+    background-color: #24305e;
+    color:white
+}
+.button1:hover{
+    background-color: #b9bfd4;
+}

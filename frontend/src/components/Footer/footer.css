@@ -1,0 +1,18 @@
+.footer{
+    padding-top: 40px;
+    background-color: #24305e;
+    padding-bottom: 20px;
+ 
+
+}
+
+.footer .footer-p-txt{
+    color: #ffffff;
+    margin-bottom: -15px;
+}
+
+.footer .footer-txt{
+    margin-top: 40px;
+    text-align: center;
+    color: #ffffff;
+}

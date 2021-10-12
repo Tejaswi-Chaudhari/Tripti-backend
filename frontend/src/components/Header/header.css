@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.nav-whole{
+    background-color: #24305e;
+    padding-bottom: 20px;
+}
+.nav-whole .nav-c .nav-brand {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+.nav-whole .nav-c .nav-brand:hover {
+    color: #f8efc9;
+}
+.nav-whole .nav-c .nav .nav-txt-rd {
+    color: #ffffff;
+}
+.nav-whole .nav-c .nav .nav-txt-rd:hover {
+    color: #fbe9a1;
+    border-top: #fbe9a1;
+    border-bottom: #fbe9a1;
+}
+.btn-login{
+    background-color: #24305e;
+    opacity: 0.8;
+    border-color: #ffffff;
+    margin-left: 20px;
+}
+.btn-login:hover{
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+}
+.nav-whole .nav-c .nav .first {
+    margin-left: 330px;
+}
+
+@media screen and (max-width: 767px){
+    .nav-whole .nav-c .nav .first, .nav-whole .nav-c .nav .nav-txt-rd {
+        text-align: center;
+        margin: auto;
+    }
+    .btn-login{
+        margin: auto;
+    }
+}

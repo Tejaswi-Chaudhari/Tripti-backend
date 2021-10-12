@@ -1,0 +1,102 @@
+
+.register {
+
+    width: 800px;
+  height: 400px;
+  display: flex;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+}
+
+input {
+    background-color: #eee;
+      border: none;
+      padding: 12px 15px;
+      margin: 8px 0;
+      width: 80%;
+      border-radius: 10px;
+    /* margin: 22px auto; */
+  }
+
+
+.button {
+	border-radius: 20px;
+	border: 1px solid #f76c6c;
+	background-color: #f76c6c;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.button:active {
+	transform: scale(0.95);
+}
+
+.button:focus {
+	outline: none;
+}
+
+.button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+.container1{
+    /* display: inline-block; */
+    background-color: aquamarine;
+    background-color: #fff;
+      border-radius: 10px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+              0 10px 10px rgba(0,0,0,0.22);
+      position: relative;
+      overflow: hidden;
+      width: 768px;
+      max-width: 100%;
+      min-height: 480px;
+    left: 0;
+      width: 50%;
+      z-index: 2;
+  }
+  .container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+      top: 0;
+      height: 100%;
+      transition: all 0.6s ease-in-out;
+    /* margin-left: 200px; */
+    background-image: linear-gradient( to right, #f8bcbc
+      ,#fcd5d5);
+    right:0;
+    width: 50%;
+  }
+  .button10{
+      margin-top: 15px;
+  }
+  .heading1{
+    margin-top: 20px;
+    font-weight: bold;
+    font-style: italic;
+  }

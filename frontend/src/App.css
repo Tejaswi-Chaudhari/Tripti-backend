@@ -1,0 +1,22 @@
+.App{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.space{
+    height: 200px;
+    background-color: #fcd5d5;
+}
+/* .App {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #f0f2f5;
+    font-family: Arial, sans-serif;
+} */

@@ -11,6 +11,7 @@ app.use(express.json());
 app.use(cors())
 
 const uri = process.env.ATLAS_URI;
+const PORT = process.env.PORT || 9002;
 
 mongoose.connect(uri, {
     useUnifiedTopology: true
@@ -161,7 +162,7 @@ const authenticate = (reeq, res, next) => {
     }
 }
 
-app.post("/Needhelp", (req, res) => {
+app.post("/help", (req, res) => {
     console.log(req.body);
     const address1 = req.body.address1;
     const address2 = req.body.address2;
@@ -187,7 +188,7 @@ app.post("/Needhelp", (req, res) => {
 
 })
 
-app.post("/Treat", (req, res) => {
+app.post("/Treatb", (req, res) => {
     console.log(req.body);
     const firstname = req.body.firstname;
     const lastname = req.body.lastname;
@@ -209,7 +210,11 @@ app.post("/Treat", (req, res) => {
         .catch(err => res.status(400).json('Error: ' + err));
 })
 
-app.listen(9002, () => {
+if (process.env.NODE_ENV === 'production'){
+    app.use(express.static('frontend/build'))
+}
+
+app.listen(PORT, () => {
     console.log("Be started at port 9002")
 })
 

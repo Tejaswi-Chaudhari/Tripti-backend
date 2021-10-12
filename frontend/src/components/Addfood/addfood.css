@@ -1,0 +1,50 @@
+@import url('https://unpkg.com/leaflet@1.5.1/dist/leaflet.css');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap'); */
+
+.addfood-h{
+  margin-top: 90px;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+/* 
+.button-el{
+  color: white;
+  border-color:#24305e;
+  background-color:#333c61;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.button-el:hover{
+  background-color: #405092;
+  color: #ffffff;
+}
+
+.img1-el{
+  width:30%;
+  margin-top: 80px;
+    padding-top: 30px;
+} 
+
+.form-1{
+    border:5px solid  #24305e;
+    margin-left:50px ;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    
+}
+
+.add-el{
+    color: #24305e;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+.para-1-el{
+    text-align: center;
+    font-size: larger;
+    font-style: bold;
+} */

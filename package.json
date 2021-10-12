@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "start": "node index.js",
+  "build": "cd frontend && npm run build",
+  "install-client": "cd frontend && npm install",
+  "heroku-postbuild": "npm run install-client && npm run build",
+  "client": "cd frotend && npm start",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

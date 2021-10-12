@@ -1,0 +1,71 @@
+.needhelp-txt{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 350;
+}
+.needhelp-h{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #24305e;
+    color: transparent;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 10px;
+    font-size: 80px;
+}
+
+
+
+.help-gif-el{
+    margin-left: 50px;
+    height: 450px;
+    width: auto;
+}
+
+.container-ele{
+    top:0;
+    bottom:0;
+    right: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background-color: #fcd5d5;
+}
+
+.form-ele {
+    margin-top: 50px;
+    margin-left: 120px;
+    display: inline-block;
+    height: 200px;
+    width: 80%;
+  }
+  
+  /* .form-grp{
+      margin-top: 10px;
+  } */
+
+.button-ele{
+    margin-top: 10px;
+    color: #ffffff;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    background-color: #24305e; 
+}
+
+.button-ele:hover{
+    border: none;
+    background-color: #24305e; 
+    color: #fbe9a1;
+}
+
+.form-Control-el{
+    background-color: transparent;
+    border: 1px solid #24305e;
+}
+
+.needhelp-blob4{
+    height: 300px;
+    position: absolute;
+    margin-left: 150px;
+    opacity: 0.5;
+}

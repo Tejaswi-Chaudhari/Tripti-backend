@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+.heading-ele{
+    margin-top: 80px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.carousel-el{
+    height: 200px;
+}
+
+.para-el{
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lora', serif;
+}
+
+.contain-3{
+    display:flex;
+}
+
+.card-scheme{
+    height: 400px;
+    margin: 25px;
+    margin-bottom: 50px;
+    
+}
+
+.car-img{
+    filter: grayscale(50%);
+    height: 600px;
+}
+
+
+.govt-head{
+    font-family: 'Nanum Myeongjo', serif;
+}

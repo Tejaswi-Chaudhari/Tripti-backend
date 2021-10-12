@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.about-section{
+    
+    margin: 0;
+    padding: 0;
+    margin-top: 80px;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+
+    background: url(https://www.tcmservices.net/images/aboutus.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+    color:#24305e;
+}
+.head-ele{
+    font-family: 'Acme', sans-serif;
+    font-size: 150px;
+    text-align: center;
+}
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fbe9a1;
+    padding: 68px;
+    margin-right: -393px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text-el{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    font-size: medium;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.email {
+    margin-right: 10%;
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    float:left;
+  }
+
+  @media screen and (min-width: 480px) {
+    
+  }
