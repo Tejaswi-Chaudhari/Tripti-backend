@@ -12,15 +12,11 @@
     padding-top: 10px;
     font-size: 80px;
 }
-
-
-
 .help-gif-el{
     margin-left: 50px;
     height: 450px;
     width: auto;
 }
-
 .container-ele{
     top:0;
     bottom:0;
@@ -30,14 +26,13 @@
     height:100%;
     background-color: #fcd5d5;
 }
-
 .form-ele {
     margin-top: 50px;
     margin-left: 120px;
     display: inline-block;
     height: 200px;
     width: 80%;
-  }
+}
   
   /* .form-grp{
       margin-top: 10px;
@@ -68,4 +63,21 @@
     position: absolute;
     margin-left: 150px;
     opacity: 0.5;
+}
+
+@media screen and (max-width: 767px){
+    .needhelp-h{
+        color: #24305e;
+        font-size: x-large;
+        margin-top: 80px;
+    }
+    .needhelp-txt{
+        font-size: small;
+    }
+    .help-gif-el{
+        display: none;
+    }
+    .form-ele{
+        margin: 35px;
+    }
 }

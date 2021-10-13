@@ -52,3 +52,10 @@
 .button-elemt:hover{
     background-color: #374785;
 }
+
+@media screen and (max-width: 767px){
+    .treat-para{
+        font-size: smaller;
+        width: 80%;
+    }
+}

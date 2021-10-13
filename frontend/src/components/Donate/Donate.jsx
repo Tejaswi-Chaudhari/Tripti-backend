@@ -14,9 +14,9 @@ function Donate() {
                     <div className="leftside">
                         <h1 className="topic1">We need your help.</h1>
                         <h6 className="para">
-                            As a nonprofit,we rely on donations to provide food and the kind of health care kids deserve: highly specialized,compassinate,family-centered and customized to the special health needs of children.
+                            As a nonprofit, we rely on donations to provide food and the kind of health care kids deserve: highly specialized, compassionate, family-centered and customized to the special health needs of children.
                         </h6>
-                        <h5 className="para1">🙌100% of your donation will be spent on the kids and families that are counting on you.
+                        <h5 className="para1">🙌100% of your donation will be spent for the kids and families that are counting on you.
                         </h5>
 
 

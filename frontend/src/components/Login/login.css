@@ -106,3 +106,16 @@ input {
     font-family: 'Dancing Script', cursive;
     font-weight: bolder;
 }
+
+@media screen and (max-width: 767px){
+    .button{
+      text-align: center;
+    }
+    .container1{
+      margin: auto;
+      width: 80%;
+    }
+    .container2{
+      display: none;
+    }
+  }

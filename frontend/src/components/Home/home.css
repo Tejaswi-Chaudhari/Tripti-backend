@@ -63,7 +63,8 @@ body{margin-top:20px;}
 .line-steps {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .head-text{

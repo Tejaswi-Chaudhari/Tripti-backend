@@ -26,10 +26,10 @@
 }
 
 .card-scheme{
+    width: 300px;
     height: 400px;
     margin: 25px;
     margin-bottom: 50px;
-    
 }
 
 .car-img{
@@ -40,4 +40,21 @@
 
 .govt-head{
     font-family: 'Nanum Myeongjo', serif;
+}
+
+@media screen and (max-width: 767px){
+    .contain-3{
+        display: block;
+    }
+    .card-scheme{
+        width: 350px;
+        height: auto;
+    }
+    .car-govt{
+        display: none;
+    }
+    .contain-2{
+        margin-top: 100px;
+        font-size: medium;
+    }
 }

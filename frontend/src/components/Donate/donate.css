@@ -38,3 +38,12 @@ color: #24305e;
 .button1:hover{
     background-color: #b9bfd4;
 }
+
+@media screen and (max-width: 767px){
+    .image-location{
+        display: none;
+    }
+    .leftside{
+        margin-bottom: 30px;
+    }
+}

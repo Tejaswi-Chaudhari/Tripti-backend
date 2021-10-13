@@ -65,6 +65,15 @@
     float:left;
   }
 
-  @media screen and (min-width: 480px) {
-    
+  @media screen and (max-width: 767px){
+        .about-section{
+            background: none;
+        }
+        .inner-container{
+            margin: auto;
+            width: 90%;
+        }
+        .text-el{
+            font-size: medium;
+        }
   }

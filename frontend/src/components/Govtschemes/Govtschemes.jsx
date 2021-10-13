@@ -11,7 +11,7 @@ const Govtschemes = () => {
         <div className="main-container">
 
             <div>
-                <Carousel >
+                <Carousel className="car-govt">
                     <Carousel.Item>
                         <img
                             className="car-img d-block w-100"
@@ -66,7 +66,7 @@ const Govtschemes = () => {
 
 
             <div className="contain-3">
-                <Card style={{ width: '18rem' }} className="card-scheme">
+                <Card className="card-scheme">
                     <Card.Body>
                         <Card.Title>Midday Meal Scheme
                         </Card.Title>
@@ -79,7 +79,7 @@ const Govtschemes = () => {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '18rem' }} className="card-scheme">
+                <Card className="card-scheme">
                     <Card.Body>
                         <Card.Title>Indira Gandhi Matritva Sahyog Yojna (IGMSY)</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">Pradhan Mantri Matri Vandana Yojana</Card.Subtitle>
@@ -92,7 +92,7 @@ const Govtschemes = () => {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '18rem' }} className="card-scheme">
+                <Card className="card-scheme">
                     <Card.Body>
                         <Card.Title>National Nutritional policy 1993
                         </Card.Title>
@@ -106,7 +106,7 @@ const Govtschemes = () => {
                     </Card.Body>
                 </Card>
 
-                <Card style={{ width: '18rem' }} className="card-scheme">
+                <Card className="card-scheme">
                     <Card.Body>
                         <Card.Title>National Nutrition Mission</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted">POSHAN Abhiyaan</Card.Subtitle>
