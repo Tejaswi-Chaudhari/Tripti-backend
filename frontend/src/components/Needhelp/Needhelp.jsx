@@ -52,13 +52,13 @@ const Needhelp = () => {
                         <Form className="form-ele needhelp-el" onSubmit={e => onSubmit(e)}>
                             <Form.Group className="address1-el form-grp" controlId="formGridAddress1">
                                 <Form.Label>Address line-1</Form.Label>
-                                <Form.Control onChange={e => onInputChange(e)} value={help.address1} name="address1" type="address1" className="form-Control-el" placeholder="1234 Main St" />
+                                <Form.Control onChange={e => onInputChange(e)} value={help.address1} name="address1" type="address1" className="form-Control-el" placeholder="1234 Main St" required />
                             </Form.Group>
 
 
                             <Form.Group className="address2-el form-grp" controlId="formGridAddress2">
                                 <Form.Label>Address line-2</Form.Label>
-                                <Form.Control onChange={e => onInputChange(e)} value={help.address2} name="address2" type="address2" className="form-Control-el" placeholder="Apartment, studio, or floor" />
+                                <Form.Control onChange={e => onInputChange(e)} value={help.address2} name="address2" type="address2" className="form-Control-el" placeholder="Apartment, studio, or floor" required />
                             </Form.Group>
 
 
@@ -66,7 +66,7 @@ const Needhelp = () => {
 
                                 <Form.Group className="form-grp" as={Col} controlId="formGridCity">
                                     <Form.Label>City</Form.Label>
-                                    <Form.Control onChange={e => onInputChange(e)} value={help.city} name="city" type="city" className="form-Control-el" />
+                                    <Form.Control onChange={e => onInputChange(e)} value={help.city} name="city" type="city" className="form-Control-el" required />
                                 </Form.Group>
 
 
@@ -78,7 +78,7 @@ const Needhelp = () => {
 
                                 <Form.Group className="form-grp" as={Col} controlId="formGridZip">
                                     <Form.Label>Zip</Form.Label>
-                                    <Form.Control onChange={e => onInputChange(e)} value={help.zip} name="zip" type="zip" className="form-Control-el" />
+                                    <Form.Control onChange={e => onInputChange(e)} value={help.zip} name="zip" type="zip" className="form-Control-el" required />
                                 </Form.Group>
 
                             </Row>
